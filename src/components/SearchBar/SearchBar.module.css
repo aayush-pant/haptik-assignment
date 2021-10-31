@@ -1,0 +1,17 @@
+.input-container {
+  width: 100vw;
+}
+
+.input-container input {
+  width: inherit;
+  border: none;
+  border-bottom: 1px solid #4267b2;
+  font-size: 1rem;
+  line-height: 1.2rem;
+  padding: 10px;
+  outline: 1px solid #4267b2;
+}
+
+.input-container input:focus {
+  box-shadow: 3px 3px 5px #4267b2;
+}

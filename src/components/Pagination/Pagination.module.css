@@ -1,0 +1,73 @@
+.footer {
+  display: flex;
+  background-color: #4267b2;
+  padding: 0.75rem 1rem;
+}
+
+.page-number {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: default;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+
+.page-item {
+  line-height: 20px;
+  padding: 5px;
+  font-size: 1rem;
+  text-align: center;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.page-item:not(:last-child) {
+  margin-right: 5px;
+}
+
+.page-item:hover {
+  cursor: pointer;
+}
+
+.page-item:active {
+  transform: translate(0, 2px);
+}
+
+.page-link {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  height: 16px;
+  width: 16px;
+}
+
+.sort {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.sort:hover {
+  cursor: pointer;
+}
+
+.sort:active {
+  transform: translate(0, 2px);
+}

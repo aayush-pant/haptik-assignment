@@ -1,0 +1,60 @@
+.friend-container {
+  display: flex;
+  padding: 15px 2rem;
+  border-bottom: 2px solid #898f9c;
+  align-items: center;
+}
+
+.friend-container:first-child {
+  margin-top: 4px;
+}
+
+.friend {
+  display: flex;
+  flex-direction: column;
+}
+
+.heading {
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 2rem;
+  color: #393b41;
+}
+
+.subheading {
+  font-size: 0.9rem;
+  color: #8d8d8d;
+}
+
+.space {
+  flex: 1;
+}
+
+.icon-outer-container {
+  display: flex;
+}
+
+.icon-container {
+  width: 44px;
+  height: 32px;
+  border: 1px solid #8d8d8d;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-container:hover {
+  transform: translate(0, -2px);
+  cursor: pointer;
+  box-shadow: -1px 1px 5px #808080;
+}
+
+.icon {
+  height: 16px;
+  width: 16px;
+}
+
+.star {
+  margin-right: 10px;
+}
